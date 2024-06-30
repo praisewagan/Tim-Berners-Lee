@@ -1,115 +1,53 @@
-body {
-    margin: 0;
-    padding-top: 550px;
+body
+{
     text-align: center;
 }
-
-.profile {
-    border-radius: 50%;
-}
-
 #welcome {
-    position: absolute;
+    color: #FFFFFF;
     bottom: 0;
-    background: linear-gradient( #d177ea 0%, #9D71E8 100% );
+    background: linear-gradient(#d660eb 0%, #780f7a 100%);
     display: table;
     width: 100%;
     height: 100%;
-
-
+    z-index: 9;
 }
-
-h1 {
-    font-size: 40px;
-    font-family: serif;
-    font-weight: 300;
-}
-
-#name {
-    font-size: 50px;
-    font-family: magnat;
-
-}
-
-
-h2 {
-    font-size: 30px;
-    font-weight: 300;
-    font-family: monospace;
-}
-
 #bio {
     font-family: cursive;
     padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
 .line {
     height: 6px;
-    background-color: black;
-    width: 100px;
+    background-color: #000;
+    width: 70px;
     margin: 8px auto;
-
-
 }
-
-
-.parralax-inner {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-
-.menu{
-    position: fixed;
-    background: white;
+#contact iframe
+{
     width: 100%;
-    margin-top: 0px;
-    top: 0px;
-    z-index: 10;
-
-
-
-
 }
-
-
-
-.links{
-    display: inline;
-    padding-left: 33px;
-    padding-right: 25px;
-    font-family: cursive;
-    font-size: 20px;
-
-    
-}
-
-
-a {
-    text-decoration: none;
-}
-
-.links:hover {
-    font-size: 25px;
-    text-decoration: underline;
-
-}
-
-
-#writings a {
-    text-decoration: dotted !important;
-    color: periwinkle !important;
-
-}
-
-#contact{
-    background: silver;
-
-
-}
-
 .contact_1 h3
 {
     display: inline;
 }
+.contact_1 a
+{
+    text-shadow: none;
+}
 
+#videos iframe
+{
+    width: 80%;
+}
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999
+}
